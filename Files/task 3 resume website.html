@@ -1,0 +1,299 @@
+html_content = '''<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bhavani A - Resume</title>
+    <style>
+      /* Earthy Tones - Warm & Professional */
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f4f1ea;
+        color: #2c241b;
+      }
+      header {
+        background: linear-gradient(135deg, #8b5a2b 0%, #d4a574 100%);
+        color: #fff8f0;
+        padding: 40px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        box-shadow: 0 4px 6px rgba(139, 90, 43, 0.3);
+      }
+      .headshot {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 5px solid #fff8f0;
+        margin-bottom: 20px;
+        background-color: #e6dcc8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 60px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      section {
+        background: #fffdf9;
+        padding: 30px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(139, 90, 43, 0.1);
+        border-left: 4px solid #c9a86c;
+      }
+      h1 {
+        margin: 0;
+        font-size: 2.5em;
+        color: #fff8f0;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      }
+      h2 {
+        color: #8b5a2b;
+        border-bottom: 2px solid #c9a86c;
+        padding-bottom: 10px;
+        margin-top: 0;
+      }
+      .title {
+        font-size: 1.3em;
+        opacity: 0.95;
+        margin-top: 10px;
+        color: #f5e6d3;
+      }
+      .contact-info {
+        margin-top: 15px;
+        font-size: 0.95em;
+        color: #f5e6d3;
+      }
+      .contact-info span {
+        margin: 0 10px;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      li {
+        margin-bottom: 8px;
+        color: #3d3229;
+      }
+      .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 15px;
+      }
+      .skill-category {
+        background: #faf7f2;
+        padding: 15px;
+        border-radius: 8px;
+        border-left: 4px solid #a0826d;
+        border-top: 1px solid #e6dcc8;
+      }
+      .skill-category h3 {
+        margin-top: 0;
+        color: #6b4423;
+      }
+      strong {
+        color: #5c4033;
+      }
+      p {
+        color: #3d3229;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="headshot">👤</div>
+      <h1>Bhavani A</h1>
+      <div class="title">BCA Student & Aspiring Software Developer</div>
+      <div class="contact-info">
+        <span>📍 Patel Nagar 5th Cross, Station Road, Hospet – 583201</span
+        ><br />
+        <span>📱 +91 9380131223</span>
+        <span>✉️ angadibhavani7@gmail.com</span>
+        <span>🎂 DOB: 05/11/2003</span>
+      </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a motivated Bachelor of Computer Applications (BCA) student with a
+        unique background in Pharmacy (D-Pharmacy). I am seeking an internship
+        opportunity to apply my technical and analytical skills while gaining
+        practical industry experience. I possess a strong foundation in
+        programming, database management, and web development, combined with
+        excellent communication and vendor coordination skills. My diverse
+        educational background in both healthcare and technology gives me a
+        unique perspective and adaptability to learn quickly and contribute
+        effectively to organizational goals.
+      </p>
+      <p>
+        I am passionate about investigative learning and continuous skill
+        development. I have a keen interest in the medical profession,
+        particularly in medical coding, which bridges my healthcare knowledge
+        with technical expertise.
+      </p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <strong>Bachelor of Computer Applications (BCA)</strong> – National
+          Degree College, Vijayanagara Sri Krishnadevaraya University
+          (2024–2026, Pursuing)
+        </li>
+        <li>
+          <strong>D-Pharmacy (2nd Year)</strong> – Bapuji Pharmacy College,
+          Davangere (2024)
+        </li>
+        <li>
+          <strong>D-Pharmacy (1st Year)</strong> – Bapuji Pharmacy College,
+          Davangere (2023)
+        </li>
+        <li><strong>PUC</strong> – Smiore Composite PU College (2021)</li>
+        <li><strong>SSLC</strong> – Smiore Vyasapuri High School (2019)</li>
+      </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Programming Languages</h3>
+          <ul>
+            <li>
+              <strong>C Programming:</strong> Knowledge of loops, functions,
+              arrays, and problem solving
+            </li>
+            <li>
+              <strong>C++ Programming:</strong> Familiar with OOP concepts like
+              classes and inheritance
+            </li>
+            <li>
+              <strong>Java:</strong> Basic knowledge of Java and OOP concepts
+            </li>
+            <li><strong>Python:</strong> Currently learning</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Web Development</h3>
+          <ul>
+            <li>
+              <strong>HTML, CSS, JavaScript (ES6+):</strong> Ability to build
+              basic responsive web pages
+            </li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Database & Tools</h3>
+          <ul>
+            <li>
+              <strong>DBMS:</strong> Understanding of SQL basics and
+              normalization
+            </li>
+            <li>
+              <strong>Tally & MS Office:</strong> Proficient in MS Word, Excel,
+              and Tally for documentation and basic accounting tasks
+            </li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Accounting & Business</h3>
+          <ul>
+            <li>
+              <strong>Basic Accounting Knowledge:</strong> Understanding of
+              journal entries, ledgers, and financial records
+            </li>
+            <li>
+              <strong>Communication & Vendor Coordination:</strong> Effective
+              communication and coordination skills
+            </li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Investigative learning</li>
+            <li>Quick adaptability</li>
+            <li>Team collaboration</li>
+            <li>Problem-solving</li>
+            <li>Time management</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Languages</h3>
+          <ul>
+            <li>English</li>
+            <li>Kannada</li>
+            <li>Telugu</li>
+            <li>Hindi</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements">
+      <h2>Achievements & Awards</h2>
+      <ul>
+        <li>
+          🏆 <strong>1st Prize in College Cultural Event</strong> – Group Dance
+        </li>
+      </ul>
+    </section>
+
+    <!-- Activities Section -->
+    <section id="activities">
+      <h2>Activities & Projects</h2>
+      <ul>
+        <li>Completed assignments in DBMS</li>
+        <li>Completed assignments in Java</li>
+        <li>Worked on HTML, CSS, and JavaScript projects</li>
+        <li>Currently learning Python</li>
+        <li>Continuously improving technical skills</li>
+      </ul>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests">
+      <h2>Interests</h2>
+      <ul>
+        <li>Investigative learning</li>
+        <li>Interest in medical profession</li>
+        <li>Medical coding</li>
+        <li>Skill development</li>
+      </ul>
+    </section>
+
+    <!-- Objective Section -->
+    <section id="objective">
+      <h2>Career Objective</h2>
+      <p>
+        Motivated BCA student seeking an internship opportunity to apply my
+        technical and analytical skills while gaining practical industry
+        experience and contributing to organizational success.
+      </p>
+    </section>
+  </body>
+</html>
+''' # Save the HTML file with open('/mnt/kimi/output/bhavani_resume.html', 'w',
+encoding='utf-8') as f: f.write(html_content) print("✅ Resume website updated
+with new color grading!") print("\n🎨 New Color Scheme: Warm Earthy Tones")
+print(" • Header: Warm brown to tan gradient (#8b5a2b to #d4a574)") print(" •
+Background: Creamy beige (#f4f1ea)") print(" • Cards: Off-white with warm
+borders (#fffdf9)") print(" • Accents: Bronze and copper tones") print(" • Text:
+Deep brown for readability (#2c241b)")
